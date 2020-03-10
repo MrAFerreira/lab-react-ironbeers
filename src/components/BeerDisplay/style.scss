@@ -1,0 +1,18 @@
+.Display__card {
+  display: flex;
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 2px solid grey;
+  .Display__image {
+    max-width: 20%;
+    align-self: center;
+    margin-right: 5em;
+    img {
+      max-width: 50%;
+    }
+  }
+  .Display__content {
+    display: flex;
+    flex-direction: column;
+  }
+}
