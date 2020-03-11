@@ -4,7 +4,7 @@ import './style.scss';
 
 const BeerDisplay = props => {
   return (
-    <Link to={`/beer/${props._id}`}>
+    <Link to={`/beers/${props._id}`}>
       <section className="Display__card">
         <div className="Display__image">
           <img src={props.image_url} alt={props.name} />

@@ -17,7 +17,6 @@ class AllBeers extends Component {
   fetchData() {
     listAll()
       .then(beers => {
-        console.log(beers);
         this.setState({
           beers
         });

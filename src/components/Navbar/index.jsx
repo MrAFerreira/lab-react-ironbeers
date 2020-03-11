@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
+import './style.scss';
 
 const Navbar = props => {
   return (
-    <nav>
+    <nav className="navbar">
       <Link to="/">Home</Link>
     </nav>
   );
